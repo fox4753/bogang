@@ -95,7 +95,15 @@ public class Product implements Serializable{
 			this.productId = productId;
 		}
 		
-		
+		public String getFilename() {
+			return filename;
+		}
+
+		public void setFilename(String filename) {
+			this.filename = filename;
+		}
+
+		private String filename;
 
 
 
